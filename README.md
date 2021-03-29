@@ -2,9 +2,9 @@
 Unity package for creating splines and move objects along them, made with Unity 2019. Supports 2D and 3D.
 
 System to allow an object to follow a preset spline or splines in order. Made using Unity 2019.4.0f1, but should work fine for other versions
-Contains two scripts
 
-## SplineController:
+## Scripts
+### SplineController:
 * Calculates and shows the spline using gizmos
 * Spline Points - Should hold all four of the "Point" child objects, in the correct order. if these are missing and error will show
 * Spline Point Icons - Holds ref to the icons used to show spline points order, for more clear editing
@@ -13,7 +13,7 @@ Contains two scripts
 but only updates if Gizmos are turned on.
 		
 
-## SplineMovement:
+### SplineMovement:
 
 Moves the actual object along given splines.
 
@@ -27,11 +27,11 @@ Moves the actual object along given splines.
 * Speed Modifier - How fast the object should move along the path
 
 ## Placeholder art:
-* The number used to show spline points more clearly
+* Number graphics used to show spline points
 * A square used for the test movement object
 
 ## Sample scene:
-*Showing the system in use, with two spines and a move object setup with different looping and spline setups.
+* Showing the system in use, with two splines and a move object setup with different looping and spline setups.
 
 ## Usage:
 To create the spline move the Point object under the Spline object, if you have Gizmos turned on you should now see a series of circles showing you the spline path.
