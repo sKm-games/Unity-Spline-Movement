@@ -3,12 +3,14 @@ Unity package for creating splines and move objects along them, made with Unity 
 
 System to allow an object to follow a preset spline or splines in order. Made using Unity 2019.4.0f1, but should work fine for other versions
 Contains two scripts
+
 	SplineController
 		Calculates and shows the spline using gizmos
 			Spline Points - Should hold all four of the "Point" child objects, in the correct order. if these are missing and error will show
 			Spline Point Icons - Holds ref to the icons used to show spline points order, for more clear editing
 			Ref Colot - Hold the color this spline should use, makes it easier to see the difference with multiple splines
 			Show Spline Point - Determine if the "Point" object should show during gameplay, can be changed during runtime, but only updates if Gizmos are turned on.
+                        
 	SplineMovement
 		Moves the actual object along given splines.
 			Spline Infos
